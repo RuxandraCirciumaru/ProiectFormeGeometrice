@@ -1,0 +1,35 @@
+<d:project xmlns:d="http://maven.apache.org/POM/4.0.0"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <d:modelVersion>4.0.0</d:modelVersion>
+
+    <d:groupId>org</d:groupId>
+    <d:artifactId>ProiectFinalFormeGeometrice</d:artifactId>
+    <d:version>1.0-SNAPSHOT</d:version>
+
+    <d:properties>
+        <d:maven.compiler.source>1.8</d:maven.compiler.source>
+        <d:maven.compiler.target>1.8</d:maven.compiler.target>
+    </d:properties>
+
+    <d:dependencies>
+
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
+        <d:dependency>
+            <d:groupId>junit</d:groupId>
+            <d:artifactId>junit</d:artifactId>
+            <![CDATA[4.13.2]]>
+            <d:scope>test</d:scope>
+        </d:dependency>
+
+
+    </d:dependencies>
+
+
+
+
+
+
+
+</d:project>

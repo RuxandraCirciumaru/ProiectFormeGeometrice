@@ -12,6 +12,9 @@ public class Main {
                 double latime = Double.parseDouble(sc.nextLine());
                 Dreptunghi dreptunghi = new Dreptunghi(lungime,latime);
                 double perimetruDreptunghi = dreptunghi.calculPerimetru();
+                if(lungime < 0 && latime <0){
+                    System.out.println("Dimensiunile dreptunghiului trebuie sa fie numere pozitive.Va rog introduceti un numar mai mare decat 0.");
+                }
                 System.out.println("Perimetrul dreptunghiului este :" + perimetruDreptunghi);
                 break;
 
@@ -22,14 +25,23 @@ public class Main {
                 double ipotenuza = Double.parseDouble(sc.nextLine());
                 Triunghi triunghi = new Triunghi(cateta1,cateta2,ipotenuza);
                 double perimetruTriunghi = triunghi.calculPerimetru();
-                System.out.println("Perimetrul triunghiului este: " +perimetruTriunghi);
+                if (cateta1 < 0 && cateta2 <0 && ipotenuza < 0) {
+                    System.out.println("Dimensiunile triunghiului  trebuie sa fie numere pozitive.Va rog intoduceti un numar mai mare decat 0");
+                }else{
+                    System.out.println("Perimetrul triunghiului este: " +perimetruTriunghi);
+                }
                 break;
+
             case "patrat":
                 System.out.println("Introduceti dimensiunile laturii: ");
                 double latura = Double.parseDouble(sc.nextLine());
                 Patrat patrat = new Patrat(latura);
                 double perimetruPatrat = patrat.calculPerimetru();
-                System.out.println("Perimetrul patratului este: " + perimetruPatrat);
+                if (latura < 0) {
+                    System.out.println("Dimensiunea laturii trebuie sa fie numar pozitiv.Va rog intoduceti un numar mai mare decat 0");
+                }else{
+                    System.out.println("Perimetrul patratului este: " + perimetruPatrat);
+                }
                 break;
 
             default:

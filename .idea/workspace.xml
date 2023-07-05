@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5e2cde5-5031-4a85-8d70-618cc5906ca8" name="Changes" comment="FinalProjectFormeGeometrice">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dreptunghi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dreptunghi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FormeGeometrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FormaGeometrica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Patrat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Patrat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Triunghi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Triunghi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DreptunghiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DreptunghiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PatratTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PatratTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TriunghiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TriunghiTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +29,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/Main.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/Patrat.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/DreptunghiTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/PatratTest.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -65,6 +69,11 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="ProiectFinalFormegeometrice" />
